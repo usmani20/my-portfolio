@@ -614,6 +614,8 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
+  padding-left: 15px;
+  padding-right: 15px;
   padding: 60px 0;
   scroll-margin-top: 92px;
   overflow: clip;
@@ -624,6 +626,13 @@ section,
   section,
   .section {
     scroll-margin-top: 76px;
+  }
+}
+
+@media (min-width: 992px) {
+  section {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 
