@@ -614,9 +614,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding-left: 15px;
-  padding-right: 15px;
-  padding: 60px 0;
+  padding: 60px 40px;
   scroll-margin-top: 92px;
   overflow: clip;
 }
