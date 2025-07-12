@@ -614,7 +614,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 40px;
+  padding: 60px 0;
   scroll-margin-top: 92px;
   overflow: clip;
 }
@@ -627,12 +627,7 @@ section,
   }
 }
 
-@media (min-width: 992px) {
-  section {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Global Section Titles
